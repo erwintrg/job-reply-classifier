@@ -1,0 +1,13 @@
+Delivered-To: you@example.com
+From: Parcel Example <tracking@parcel-example.com>
+To: you@example.com
+Subject: Your package is on its way
+Date: Fri, 02 Oct 2026 12:30:00 +0200
+Message-ID: <shipment-4471@mail.parcel-example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Good news: your order 4471 has shipped and should arrive on Monday.
+
+Track it here: https://parcel-example.com/track/4471

@@ -1,0 +1,20 @@
+Delivered-To: you@example.org
+From: Jane Example <jane@bakery-example.com>
+To: Alex Example <you@example.org>
+Subject: Re: Order workflow - next steps
+Date: Fri, 02 Oct 2026 11:05:44 +0200
+Message-ID: <re-order-workflow-2@mail.bakery-example.com>
+In-Reply-To: <order-workflow-1@example.org>
+References: <order-workflow-1@example.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Alex,
+
+thanks for walking me through the order workflow yesterday. Next steps on our side: I will send
+you three sample orders by Monday so you can test the automation with real data.
+
+Talk soon,
+Jane
+Sunrise Bakery Example

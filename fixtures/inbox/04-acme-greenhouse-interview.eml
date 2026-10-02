@@ -1,0 +1,40 @@
+Delivered-To: you@example.com
+From: Acme Robotics Recruiting <no-reply@us.greenhouse-mail.io>
+Reply-To: Priya Example <priya@acme-example.com>
+To: Alex Example <you@example.com>
+Subject: Interview invitation: AI Workflow Engineer at Acme Robotics
+Date: Thu, 01 Oct 2026 10:47:21 +0200
+Message-ID: <gh-interview-7781@mail.acme-example.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=_acme_7781"
+
+--=_acme_7781
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Alex,
+
+thanks for applying for the AI Workflow Engineer role at Acme Robotics. We enjoyed reading your
+application and would like to invite you to a 45-minute video interview with our Head of Operations.
+
+Would Wednesday, 7 October 2026 at 14:00 (CEST) work for you? If not, just reply with two other
+slots that suit you.
+
+Best regards,
+Priya Example
+Talent Team, Acme Robotics
+
+--=_acme_7781
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><body>
+<p>Hi Alex,</p>
+<p>thanks for applying for the <b>AI Workflow Engineer</b> role at Acme Robotics. We enjoyed reading your
+application and would like to invite you to a 45-minute video interview with our Head of Operations.</p>
+<p>Would Wednesday, 7 October 2026 at 14:00 (CEST) work for you? If not, just reply with two other
+slots that suit you.</p>
+<p>Best regards,<br>Priya Example<br>Talent Team, Acme Robotics</p>
+</body></html>
+
+--=_acme_7781--

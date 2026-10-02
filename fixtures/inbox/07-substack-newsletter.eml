@@ -1,0 +1,19 @@
+Delivered-To: you@example.org
+From: The Workflow Example Weekly <workflowexample@substack.com>
+To: you@example.org
+Subject: Issue #42: what hiring managers ask in an automation interview
+Date: Fri, 02 Oct 2026 07:30:00 +0200
+Message-ID: <issue-42@mail.workflow-example.com>
+List-Unsubscribe: <https://newsletter.example.com/unsubscribe>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+This week: five questions hiring managers ask in an automation interview, and how to answer
+them with examples from your own workflows.
+
+1. Walk me through a workflow that broke in production.
+2. How do you decide between a script and a no-code tool?
+3. How do you keep secrets out of your automations?
+
+Read the full issue: https://newsletter.example.com/p/issue-42

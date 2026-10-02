@@ -1,0 +1,26 @@
+Delivered-To: you@example.com
+Return-Path: <globex@myworkday.com>
+From: Globex Analytics Careers <globex@myworkday.com>
+To: Alex Example <you@example.com>
+Subject: Thank you for applying: Automation Engineer (R-10482)
+Date: Wed, 30 Sep 2026 09:12:44 +0200
+Message-ID: <receipt-r10482@mail.globex-example.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+<title>Application received</title>
+<style>p { font-family: Arial, sans-serif; color: #333333; }</style>
+</head>
+<body>
+<p>Dear Alex Example,</p>
+<p>Thank you for your interest in Globex Analytics. We have received your application for the position
+<b>Automation Engineer (R-10482)</b>.</p>
+<p>Our recruiting team will review your profile carefully. If your qualifications match the role,
+we will contact you about next steps.</p>
+<p>This is an automated message. Please do not reply to this email.</p>
+<p>Globex Analytics Talent Acquisition</p>
+</body>
+</html>

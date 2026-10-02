@@ -1,0 +1,21 @@
+# secrets and local config
+.env
+credentials.json
+token.json
+
+# runtime output
+data/
+demo-output/
+*.lock
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# notes for the author, not for the public
+REVIEW.md
