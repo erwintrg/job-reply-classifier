@@ -5,10 +5,11 @@ Watches several Gmail inboxes for replies to job applications, has Claude Haiku 
 logged quietly, interview invitations and questions ping you right away, rejections that arrive at
 night wait until the morning.
 
-This is a sanitized rebuild of a watcher I run in production on my own inboxes. The production
-version checks two Gmail accounts every two minutes and posts to a task board that an assistant
-agent works from. This repo replaces the private parts with pluggable sources, classifiers and
-sinks, and adds an offline demo that runs without any account or key.
+It is built for anyone running a job search, a recruiting pipeline or a hiring inbox. This repo is
+a sanitized rebuild of a watcher that runs in production on real inboxes: the production version
+checks two Gmail accounts every two minutes and posts to a task board that an assistant agent works
+from. Here the private parts are replaced with pluggable sources, classifiers and sinks, plus an
+offline demo that runs without any account or key.
 
 ## The problem
 
@@ -290,9 +291,8 @@ rejection in the morning, it goes out right away instead of waiting for the next
 - The first run looks back 24 hours, later runs 72 hours, so a watcher that was down for a day
   catches up without duplicates.
 - A failed classification leaves the mail unseen and it is retried next cycle. After
-  `MAX_ATTEMPTS` it is logged as `unclassified` on the quiet path instead of disappearing. The
-  production script I started from treated an unreadable model answer as `not_job`, which could
-  hide a real reply.
+  `MAX_ATTEMPTS` it is logged as `unclassified` on the quiet path instead of disappearing. An
+  earlier version treated an unreadable model answer as `not_job`, which could hide a real reply.
 - Setup problems (rejected API key, revoked Gmail token, missing CLI) raise `ConfigError` and stop
   the cycle, so they do not burn through every mail's retry budget.
 - A failing sink is logged and the other sinks still get the event.
